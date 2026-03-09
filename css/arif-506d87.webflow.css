@@ -458,7 +458,7 @@ li {
   text-transform: none;
   padding: 24px;
   font-size: 18px;
-  display: none;
+  display: inline-block;
 }
 
 .download-heading {
