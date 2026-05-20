@@ -458,7 +458,7 @@ li {
   text-transform: none;
   padding: 24px;
   font-size: 18px;
-  display: inline-block;
+  display: none;
 }
 
 .download-heading {
@@ -931,11 +931,11 @@ li {
 }
 
 .year-link-block {
+  width: 100%;
   color: var(--dim-grey-2);
   background-color: #fff;
   border: 0 solid #000;
   border-radius: 5px;
-  width: 100%;
   margin-bottom: 0;
   padding: 10px 14px;
   font-style: normal;
@@ -1080,12 +1080,12 @@ li {
 }
 
 .save-text-div {
+  width: auto;
+  height: 30px;
   color: var(--dark-slate-blue);
   text-align: left;
   background-color: #0000;
   align-items: center;
-  width: auto;
-  height: 30px;
   margin-top: 0;
   margin-right: 0;
   font-family: Nanum Pen Script, sans-serif;
